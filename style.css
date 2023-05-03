@@ -1,0 +1,60 @@
+* {
+  font-family: "Fira Code";
+  color: #cdd6f4;
+}
+
+body {
+  background-color: #181825;
+}
+
+@media only screen and (min-width: 992px) {
+  .about_me {
+    display: flex;
+  }
+}
+
+h1 {
+  color: #cba6f7;
+}
+
+.nav_container {
+  background: #11111b;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+button {
+  background-color: #45475a;
+  border-color: #74c7ec;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+button:hover {
+  background-color: #181825;
+}
+
+button.active {
+  border: 1px solid #89dceb;
+}
+
+.main {
+padding: 4rem;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  max-height: 500px;
+  background-color:#b4befe;
+  border-radius: 50%;
+}
+
+.footer_container {
+  background: #11111b;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
