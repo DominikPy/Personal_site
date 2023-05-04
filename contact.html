@@ -16,7 +16,19 @@
         <button class="active" onclick="document.location='contact.html'">Contact</button>
       </nav>
     </div>
-   
+   <div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="b370e1fb-e4e2-4c80-89ce-e17ff4d14163">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <button type="submit">Submit Form</button>
+</form>
+   </div>
     <footer>
       <div class="footer_container">
         <p>created by Dominik Meduna</p>
