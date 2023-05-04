@@ -26,7 +26,6 @@ h1 {
 
 button {
   background-color: #45475a;
-  border-color: #74c7ec;
   padding: 1rem;
   border-radius: 1rem;
   border: none;
@@ -37,18 +36,18 @@ button:hover {
 }
 
 button.active {
-  border: 1px solid #89dceb;
+  border: 1px solid #cba6f7;
 }
 
 .main {
 padding: 4rem;
 }
-.responsive {
+.image_me {
   width: 100%;
   max-width: 400px;
   max-height: 500px;
-  background-color:#b4befe;
   border-radius: 50%;
+  background-color: #cba6f7;
 }
 
 .footer_container {
