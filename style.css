@@ -13,6 +13,28 @@ body {
   }
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  row-gap: 0.8rem;
+}
+
+input{
+  background-color: #45475a;
+  border: none;
+  color: #cba6f7;
+}
+
+textarea {
+  width: 48%;
+  background-color: #45475a;
+  border: none;
+  color: #cba6f7;
+}
+
 h1 {
   color: #cba6f7;
 }
