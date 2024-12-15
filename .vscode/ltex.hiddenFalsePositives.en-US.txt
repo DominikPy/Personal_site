@@ -1,0 +1,3 @@
+{"rule":"DASH_RULE","sentence":"^\\QDominik Meduna - webdev\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDominik Meduna - webdev\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUsing Fira Code font and Catppucin Mocha pallet\\E$"}
