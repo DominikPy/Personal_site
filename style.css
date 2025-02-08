@@ -1,6 +1,7 @@
 * {
   font-family: "Fira Code";
   color: #cdd6f4;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     display: flex;
   }
 }
+
 
 form{
   display: flex;
